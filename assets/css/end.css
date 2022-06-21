@@ -1,0 +1,51 @@
+.scorecontainer {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#formContianer {
+   font-display: inherit;
+
+}
+
+.end {
+    display: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.endOptions {
+    display: flex;
+    list-style: none;
+}
+
+#finalScore {
+    display: inline-block;
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+}
+
+.end-form-container {
+    display: flex;
+}
+
+
+#saveScoreBtn {
+    display: block;
+}
+
+#playAgainBtn {
+    display: block;
+}
+
+#goHomebtn {
+    display: block;
+}

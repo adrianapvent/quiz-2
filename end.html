@@ -5,20 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/end.css">
         <link rel="stylesheet" href="https://kit.fontawesome.com/67dc20ebf1.js" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
-            <div id="end" class="flex-center flex-column"></div>
+            <div id="end" class="endOptions"></div>
                 <h1 id="finalScore">0</h1>
-                <form class="end-form-container">
+                <form class="end-form-container" id="formContianer">
                     <h2 class="end-text">Enter your initials below to save your score</h2>
                     <input type="text" name="name" id="username" placeholder="Enter your name">
                     <button class="btn" id="saveScoreBtn" type="submit"
-                    onClick="saveHighScore(event)" disabled>Save</button>
+                    onClick="saveHighScore(event)">Save</button>
                 </form>
-                <a href="/game.html" class="btn">Play Again</a>
-                <a href="/" class="btn">Go Home<i class="fas fa-home"></i></a>
+                <a href="./game.html" class="btn" id="playAgainBtn">Play Again</a>
+                <a href="./index.html" class="btn" id="goHomebtn">Go Home<i class="fas fa-home"></i></a>
         </div>
         <script src="./assets/js/end.js"></script>
     </body>
