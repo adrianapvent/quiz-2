@@ -21,12 +21,13 @@ WHEN the game is over
 THEN I can save my initials and score
 
 ## Description
-Javascript Quiz Program. The game begin with a timer and ability to add and deduct points based on correct vs. incorrect responses. The total score will be added to the  leaderboard. Buttons function to go to Home Page, High Score Page, Play Again
+Javascript Quiz Program. The game begins with a timer and ability to add and deduct points based on correct vs. incorrect responses. The total score will be added to the  leaderboard. Buttons function to go to Home Page, High Score Page, Play Again
 
 ## Screenshot
 ![Mock Up](./assets/images/Screen%20Shot%202022-06-21%20at%2012.10.55%20PM.png)
 
 ## Link
+https://adrianapvent.github.io/quiz-2/
 
 ## Technologies
 - HTML
